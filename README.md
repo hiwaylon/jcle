@@ -34,7 +34,7 @@ The `app.jar` program can now be executed with the Java application launcher:
 
 ## References:
 
--http://docs.oracle.com/javase/tutorial/displayCode.html?code=http://docs.oracle.com/javase/tutorial/essential/io/examples/Password.java
+- http://docs.oracle.com/javase/tutorial/displayCode.html?code=http://docs.oracle.com/javase/tutorial/essential/io/examples/Password.java
 - http://docs.oracle.com/javase/tutorial/deployment/jar/appman.html
 - http://www.tutorialspoint.com/java/java_packages.htm
 - http://stackoverflow.com/a/804508/484820
