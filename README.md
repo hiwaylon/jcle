@@ -16,14 +16,14 @@ The program is runnable with the Java application launcher using the `-jar` opti
     └── Password.java
 ```
 
-*src/Password.java* The application's code. It's a class with a `public static void main` method. It was important for `jar` to find and load the main class that the `Password` class was declared in a package (`src`, the directory containing it in this case).
+**src/Password.java** The application's code. It's a class with a `public static void main` method. It was important for `jar` to find and load the main class that the `Password` class was declared in a package (`src`, the directory containing it in this case).
 
-*src/Password.class* The compiled class file:
+**src/Password.class** The compiled class file:
 
     javac src/Password.java
     => src/Password.class
 
-*bin/app.jar* - The built jar file, containing the relevent reference to the main class. This is built by using the jar command:
+**bin/app.jar** - The built jar file, containing the relevent reference to the main class. This is built by using the jar command:
 
     jar cfe bin/app.jar src.Password src/Password.class
     => bin/app.jar
